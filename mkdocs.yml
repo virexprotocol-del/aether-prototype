@@ -1,0 +1,32 @@
+site_name: Aether Prototype
+site_description: Living prototype of persistent identity + adaptive AI + incentive-driven co-evolution
+site_url: https://virexprotocol-del.github.io/aether-prototype
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+
+nav:
+  - Home: index.md
+  - Prototype Overview: prototype.md
+  - Technical Stack: stack.md
+  - Incentive Loop & Economy: economy.md
+  - Roadmap & Progress: roadmap.md
+  - Run It: run.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
