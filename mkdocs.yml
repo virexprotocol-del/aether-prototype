@@ -1,4 +1,3 @@
-
 site_name: Aether Prototype
 site_description: Living prototype of persistent identity + adaptive AI + incentive-driven co-evolution
 site_url: https://virexprotocol-del.github.io/aether-prototype/
@@ -35,4 +34,3 @@ markdown_extensions:
 
 plugins:
   - search
-  
